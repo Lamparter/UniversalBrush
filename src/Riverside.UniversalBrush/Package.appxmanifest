@@ -7,16 +7,16 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="c36720a1-4007-40a2-8581-f203788dfa90"
+    Name="Riverside.UniversalBrush"
     Publisher="CN=notla"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="c36720a1-4007-40a2-8581-f203788dfa90" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Riverside.UniversalBrush</DisplayName>
+    <DisplayName>Universal Brush</DisplayName>
     <PublisherDisplayName>notla</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <Logo>Assets\AppTiles\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
@@ -32,13 +32,13 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="Riverside.UniversalBrush.App">
       <uap:VisualElements
-        DisplayName="Riverside.UniversalBrush"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="Riverside.UniversalBrush"
+        DisplayName="Universal Brush"
+        Square150x150Logo="Assets\AppTiles\Square150x150Logo.png"
+        Square44x44Logo="Assets\AppTiles\Square44x44Logo.png"
+        Description="Reimagined version of Fluent XAML Theme Editor in UWP .NET 9."
         BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\AppTiles\Wide310x150Logo.png" Square71x71Logo="Assets\AppTiles\SmallTile.png" Square310x310Logo="Assets\AppTiles\LargeTile.png"/>
+        <uap:SplashScreen Image="Assets\AppTiles\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>
