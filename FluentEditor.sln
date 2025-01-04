@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35617.110 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riverside.UniversalBrush", "Riverside.UniversalBrush\Riverside.UniversalBrush.csproj", "{8B0B526D-C97F-4682-AFBE-2E0E4605F302}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riverside.UniversalBrush", "src\Riverside.UniversalBrush\Riverside.UniversalBrush.csproj", "{8B0B526D-C97F-4682-AFBE-2E0E4605F302}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
