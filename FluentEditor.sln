@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riverside.UniversalBrush", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riverside.UniversalBrush.Core", "src\Riverside.UniversalBrush.Core\Riverside.UniversalBrush.Core.csproj", "{1D47513C-2727-40B0-9664-388D67C38C35}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|arm64 = Debug|arm64
@@ -50,6 +52,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B0B526D-C97F-4682-AFBE-2E0E4605F302} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1D47513C-2727-40B0-9664-388D67C38C35} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8641EBC3-8AB5-4EBB-8449-1C204B900CDB}
