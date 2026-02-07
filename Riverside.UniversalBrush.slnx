@@ -1,0 +1,34 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="src/Riverside.UniversalBrush.Core/Riverside.UniversalBrush.Core.csproj" />
+    <Project Path="src/Riverside.UniversalBrush/Riverside.UniversalBrush.csproj">
+      <Platform Solution="*|Any CPU" Project="x64" />
+      <Platform Solution="*|ARM" Project="x64" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+      <Deploy />
+    </Project>
+  </Folder>
+  <Project Path="Riverside.UniversalBrush.Core/Riverside.UniversalBrush.Core.csproj" Id="42a312ef-7c4a-4661-a684-db14e40a2a90">
+    <Platform Solution="*|ARM" Project="ARM" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="Riverside.UniversalBrush/Riverside.UniversalBrush.csproj" Id="8a6123de-52d5-41d0-b08d-7a045cada16e">
+    <Platform Solution="*|Any CPU" Project="x86" />
+    <Platform Solution="*|ARM" Project="ARM" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Build Solution="Release|Any CPU" Project="false" />
+    <Deploy Solution="*|ARM" />
+    <Deploy Solution="*|x64" />
+    <Deploy Solution="*|x86" />
+    <Deploy Solution="Debug|Any CPU" />
+  </Project>
+</Solution>

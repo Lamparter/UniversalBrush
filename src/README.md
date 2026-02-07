@@ -1,3 +1,0 @@
-# `src`
-
-The project source.
